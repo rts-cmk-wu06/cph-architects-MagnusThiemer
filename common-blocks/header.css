@@ -1,0 +1,10 @@
+.Header {
+    background-color: var(--color_dark-green);
+}
+
+@media (min-width: 768px) {
+    .Header {
+        display: flex;
+        justify-content: space-between;
+    }
+}

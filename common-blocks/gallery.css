@@ -1,0 +1,15 @@
+.Gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 30vw;
+    gap: var(--margin_small);
+    padding: var(--margin_small);
+}
+
+@media (min-width: 768px) {
+    .Gallery {
+        grid-auto-rows: 10rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

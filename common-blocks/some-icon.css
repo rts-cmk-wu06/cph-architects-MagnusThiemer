@@ -1,0 +1,11 @@
+.Some-icon {
+    text-align: center;
+    padding-top: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    color: var(--color_white);
+    text-decoration: none;
+    background-color: var(--color_dark-green);
+    border-radius: 30%;
+    margin-left: var(--margin_small);
+}

@@ -1,0 +1,10 @@
+.Main-article {
+    padding: var(--margin_small);
+}
+
+@media (min-width: 768px) {
+    .Main-article {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

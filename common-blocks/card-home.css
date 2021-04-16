@@ -1,0 +1,4 @@
+.Card-home {
+    display: flex;
+    flex-wrap: nowrap;
+}
