@@ -1,0 +1,10 @@
+.card-home__image-container {
+        flex: 2;
+        height: 100%;
+}
+
+@media (min-width: 768px) {
+        .card-home__image-container {
+                flex: 1;
+        }
+}

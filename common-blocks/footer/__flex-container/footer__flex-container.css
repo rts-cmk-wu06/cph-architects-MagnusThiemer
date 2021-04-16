@@ -1,0 +1,13 @@
+.footer__flex-container {
+    margin-left: var(--margin_small);
+    margin-right: var(--margin_small);
+    margin-bottom: var(--margin_medium);
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .footer__flex-container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}

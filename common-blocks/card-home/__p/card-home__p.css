@@ -1,0 +1,5 @@
+.card-home__p {
+    width: 100%;
+    padding-bottom: var(--margin_small);
+    overflow-wrap: break-word;
+}

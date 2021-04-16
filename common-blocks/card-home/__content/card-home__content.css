@@ -1,0 +1,12 @@
+.card-home__content {
+    flex: 3;
+    background-color: var(--color_light-green);
+    padding: var(--margin_small);
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .card-home__content {
+        padding: var(--margin_medium);
+    }
+}
