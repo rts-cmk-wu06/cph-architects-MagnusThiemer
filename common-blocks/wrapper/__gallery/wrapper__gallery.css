@@ -1,0 +1,10 @@
+.wrapper__gallery {
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .wrapper__gallery {
+        max-width: 768px;
+        margin: var(--margin_medium) auto;
+    }
+}

@@ -1,0 +1,7 @@
+.nav__input {
+    display: none;
+}
+
+.nav__input:checked ~ .Nav {
+    display: block;
+}

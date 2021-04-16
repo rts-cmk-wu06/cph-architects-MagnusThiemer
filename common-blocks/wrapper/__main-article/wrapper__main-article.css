@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+    .wrapper__main-article {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}

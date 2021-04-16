@@ -1,0 +1,15 @@
+.wrapper__card-home {
+    padding: var(--margin_small);
+    height: 180px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .wrapper__card-home {
+        max-width: 768px;
+        margin: 0 auto;
+        height: 256px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

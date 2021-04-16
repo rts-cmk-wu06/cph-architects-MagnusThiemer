@@ -1,0 +1,21 @@
+.nav__li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--color_black);
+    border-bottom: 0.5px solid var(--color_white);
+}
+
+@media (min-width: 768px) {
+    .nav__li {
+        display: inline;
+        background: none;
+        padding-bottom: 0;
+        margin-left: var(--margin_large);
+        margin-bottom: var(--margin_small);
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+}

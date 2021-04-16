@@ -1,0 +1,17 @@
+.header__flex {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--margin_small);
+    padding-right: var(--margin_small);
+    padding-top: var(--margin_small);
+    padding-bottom: var(--margin_small);
+}
+
+@media (min-width: 768px) {
+    .header__flex {
+        justify-content: flex-start;
+        max-width: 768px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

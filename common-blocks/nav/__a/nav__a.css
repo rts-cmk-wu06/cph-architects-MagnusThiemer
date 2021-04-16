@@ -1,0 +1,11 @@
+.nav__a {
+    color: var(--color_white);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* @media (min-width: 768px) {
+    .nav__a {
+         
+    }
+} */

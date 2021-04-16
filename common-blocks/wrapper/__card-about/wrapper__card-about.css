@@ -1,0 +1,10 @@
+.wrapper__card-about {
+    margin: var(--margin_small);
+}
+
+@media (min-width: 768px) {
+    .wrapper__card-about {
+        max-width: 1024px;
+        margin: var(--margin_medium) auto;
+    }
+}

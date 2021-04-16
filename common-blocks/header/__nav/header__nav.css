@@ -1,0 +1,9 @@
+.header__nav {
+    flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+    .header__nav {
+        flex-basis: 50%;
+    }
+}
