@@ -1,6 +1,0 @@
-@media (min-width: 768px) {
-    .article__container {
-        max-width: 768px;
-        margin: var(--margin_medium) auto;
-    }
-}
