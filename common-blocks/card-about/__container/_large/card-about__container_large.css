@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+    .card-about__container_large {
+        height: 666px;
+    }
+}

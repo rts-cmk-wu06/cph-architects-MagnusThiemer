@@ -1,0 +1,6 @@
+.card-about__content_p {
+    padding-left: var(--margin_medium);
+    padding-right: var(--margin_medium);
+    padding-top: var(--margin_small);
+    padding-bottom: var(--margin_small);
+}

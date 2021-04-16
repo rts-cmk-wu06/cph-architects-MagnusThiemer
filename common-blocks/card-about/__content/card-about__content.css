@@ -1,0 +1,14 @@
+.card-about__content {
+    width: 100%;
+    height: 25vw;
+    background-color: var(--color_light-green);
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .card-about__content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}

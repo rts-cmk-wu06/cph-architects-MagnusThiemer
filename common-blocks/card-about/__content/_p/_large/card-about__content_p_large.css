@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+    .card-about__content_p_large {
+        max-width: 450px;
+        margin: var(--margin_medium) auto;
+    }
+}

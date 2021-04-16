@@ -1,0 +1,14 @@
+.card-about__toggle {
+    display: none;
+}
+
+.card-about__toggle:checked ~ .card-about__content {
+    height: 100%;
+    overflow: none;
+}
+
+@media (min-width: 768px) {
+    .card-about__toggle {
+        pointer-events: none;
+        }
+}
