@@ -1,0 +1,84 @@
+/* unique stylesheets */
+
+@import url("./variables.css");
+@import url("./css-reset.css");
+@import url("./typography.css");
+@import url("./utility.css");
+
+/* block element stylesheets */
+
+    /* wrapper */
+@import url("../../common-blocks/wrapper.css");
+@import url("../../common-blocks/wrapper/__card-home/wrapper__card-home.css");
+@import url("../../common-blocks/wrapper/__card-about/wrapper__card-about.css");
+@import url("../../common-blocks/wrapper/__hero/wrapper__hero.css");
+@import url("../../common-blocks/wrapper/__header/wrapper__header.css");
+@import url("../../common-blocks/wrapper/__main-article/wrapper__main-article.css");
+@import url("../../common-blocks/wrapper/__gallery/wrapper__gallery.css");
+
+    /* footer */
+@import url("../../common-blocks/footer.css");
+@import url("../../common-blocks/footer/__address/footer__address.css");
+@import url("../../common-blocks/footer/__some-icons/footer__some-icons.css");
+@import url("../../common-blocks/footer/__copyright/footer__copyright.css");
+@import url("../../common-blocks/footer/__flex-container/footer__flex-container.css");
+
+    /* header */
+@import url("../../common-blocks/header.css");
+@import url("../../common-blocks/header/__logo/header__logo.css");
+@import url("../../common-blocks/header/__nav/header__nav.css");
+@import url("../../common-blocks/header/__flex/header__flex.css");
+@import url("../../common-blocks/header/__a/header__a.css");
+@import url("../../common-blocks/header/__container-full/header__container-full.css");
+
+    /* some-icon */
+@import url("../../common-blocks/some-icon.css");
+
+    /* nav */
+@import url("../../common-blocks/nav.css");
+@import url("../../common-blocks/nav/__a/nav__a.css");
+@import url("../../common-blocks/nav/__li/nav__li.css");
+@import url("../../common-blocks/nav/__toggle/nav__toggle.css");
+@import url("../../common-blocks/nav/__ul/nav__ul.css");
+@import url("../../common-blocks/nav/__input/nav__input.css");
+
+    /* card-home */
+@import url("../../common-blocks/card-home.css");
+@import url("../../common-blocks/card-home/__content/card-home__content.css");
+@import url("../../common-blocks/card-home/__h3/card-home__h3.css");
+@import url("../../common-blocks/card-home/__image-container/card-home__image-container.css");
+@import url("../../common-blocks/card-home/__image/card-home__image.css");
+@import url("../../common-blocks/card-home/__p/card-home__p.css");
+@import url("../../common-blocks/card-home/__a/card-home__a.css");
+
+    /* gallery */
+@import url("../../common-blocks/gallery.css");
+@import url("../../common-blocks/gallery/__image/gallery__image.css");
+@import url("../../common-blocks/gallery/__img-container/gallery__img-container.css");
+
+    /* card-about */
+@import url("../../common-blocks/card-about.css");
+@import url("../../common-blocks/card-about/__content/card-about__content.css");
+@import url("../../common-blocks/card-about/__container/card-about__container.css");
+@import url("../../common-blocks/card-about/__content/_p/card-about__content_p.css");
+@import url("../../common-blocks/card-about/__container/_image/card-about__container_image.css");
+@import url("../../common-blocks/card-about/__toggle/card-about__toggle.css");
+@import url("../../common-blocks/card-about/__container/_large/card-about__container_large.css");
+@import url("../../common-blocks/card-about/__content/_p/_large/card-about__content_p_large.css");
+
+    /* main-article */
+@import url("../../common-blocks/main-article.css");
+@import url("../../common-blocks/main-article/__p/main-article__p.css");
+
+    /* hero */
+@import url("../../common-blocks/hero.css");
+@import url("../../common-blocks/hero/__image/hero__image.css");
+
+    /* article */
+@import url("../../common-blocks/article.css");
+@import url("../../common-blocks/article/__image-container/__large/article__image-container_large.css");
+@import url("../../common-blocks/article/__image-container/__small/article__image-container_small.css");
+@import url("../../common-blocks/article/__p/article__p.css");
+@import url("../../common-blocks/article/__h1/article__h1.css");
+@import url("../../common-blocks/article/__image/article__image.css");
+@import url("../../common-blocks/article/__container/article__container.css");

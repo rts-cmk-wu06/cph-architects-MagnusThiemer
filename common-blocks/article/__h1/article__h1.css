@@ -1,0 +1,12 @@
+.article__h1 {
+    padding-left: var(--margin_small);
+    padding-right: var(--margin_small);
+}
+
+@media (min-width: 768px) {
+    .article__h1 {
+        max-width: 768px;
+        margin: var(--margin_medium) auto;
+        padding: 0;
+    }
+}

@@ -1,0 +1,17 @@
+.article__p {
+    padding-left: var(--margin_small);
+    padding-right: var(--margin_small);
+    margin-bottom: var(--margin_small);
+}
+
+.article__p:last-child {
+    margin-bottom: var(--margin_medium);
+}
+
+@media (min-width: 768px) {
+    .article__p {
+        max-width: 768px;
+        margin: var(--margin_small) auto;
+        padding: 0;
+    }
+}

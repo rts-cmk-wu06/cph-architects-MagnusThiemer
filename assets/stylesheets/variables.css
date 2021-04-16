@@ -1,0 +1,18 @@
+:root {
+    --color_white: #FEFEFE;
+    --color_black: #707070;
+    --color_light-green: #BCDFDE;
+    --color_dark-green: #92B8B7;
+
+    --margin_small: 0.8rem;
+    --margin_medium: 1.6rem;
+    --margin_large: 3rem;
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
